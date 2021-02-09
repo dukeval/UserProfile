@@ -1,0 +1,21 @@
+{
+  "name": "userprofile",
+  "version": "1.0.0",
+  "description": "API to Read user profile from MongoDB using Expres.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Jude Valerius",
+  "license": "ISC",
+  "dependencies": {
+    "bson": "^4.2.2",
+    "connect-mongodb-session": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7"
+  }
+}
