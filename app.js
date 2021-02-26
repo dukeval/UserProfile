@@ -10,7 +10,6 @@ const MongoDBSession = require('connect-mongodb-session')(session);
 const mongoose = require('mongoose');
  
 const MongoURI = `mongodb+srv://example:${process.env.MONGODB_PWD}@cluster0.azna4.mongodb.net/users?retryWrites=true&w=majority`;
-//const MongoURI = `mongodb+srv://example:testing123@cluster0.azna4.mongodb.net/users?retryWrites=true&w=majority`;
 
 mongoose.connect(MongoURI, {
   useNewUrlParser: true,
